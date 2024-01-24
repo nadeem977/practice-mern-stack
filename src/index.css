@@ -1,0 +1,446 @@
+.home_defualt {
+  padding: 2rem;
+}
+.home_defualt p {
+  margin-top: 1rem;
+}
+.new_project_div_home {
+  margin: 2rem 0px;
+  border-radius: 8px;
+  border: 1.6px solid #787878;
+  background: #fff;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  color: #787878;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 20px;
+  transition: all 0.4s;
+}
+.new_project_div_home:hover {
+  background-color: #e8f5fc;
+  border-color: #e8f5fc;
+}
+.icons_home {
+  color: #787878;
+  font-size: 30px;
+}
+.main_new_Project_div {
+  /* padding: 1rem; */
+  width: 100%;
+}
+.project_header_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.header_title_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #787878;
+  width: fit-content;
+  cursor: default;
+}
+.header_title_div h1 {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.header_btn_divs {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header_btn_divs button {
+  text-transform: capitalize;
+}
+.btn2_headr {
+  margin-top: 2rem;
+}
+
+.main_block_div {
+  margin-top: 1rem;
+  min-height: 40px;
+  /* box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12); */
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 5px;
+  border: 1.5px solid #b0b0b0;
+  background-color: white;
+}
+.block_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  /* border-bottom: 1px solid #b0b0b0; */
+  border-radius: 5px;
+  background: #f8f8f8;
+}
+.headerBor {
+  border-radius: 5px 5px 0px 0px !important;
+  border-bottom: 1.5px solid #b0b0b0 !important;
+  transition: all 0.4s;
+}
+.title_Block {
+  font-size: 18px !important;
+  color: black !important;
+}
+.settingTitle {
+  color: #1f4d77;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.renameSidbars {
+  font-weight: 500;
+  font-size: 0.875rem !important;
+  line-height: 1.75;
+  color: white;
+}
+.bar_inputs {
+  width: 157px !important;
+  color: white !important;
+  background-color: #ffffff4d !important;
+  font-weight: 500 !important;
+}
+.header_icon {
+  cursor: pointer;
+}
+.block_content_div {
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: grey;
+  resize: both;
+  overflow: auto;
+  font-size: 16px;
+  padding: 10px 0px;
+  width: 100% !important;
+  background-color: white;
+  border-radius: 10px;
+}
+.edit_name {
+  display: flex;
+  align-items: center;
+  /* background-color:rgb(232 245 252); */
+}
+.code_icon {
+  rotate: 90deg;
+  font-size: 15px !important;
+}
+.pencl_icon {
+  font-size: 15px !important;
+}
+.entro_block {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.remove_btn_div {
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.remve_btn {
+  text-decoration: underline !important;
+  color: red !important;
+  text-transform: capitalize !important;
+}
+.run_div {
+  background-color: #1f4d77;
+  width: fit-content;
+  border-radius: 7px;
+}
+.run_div svg {
+  border: 1.8px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+.copy_icon {
+  font-size: 15px !important;
+  border-radius: 4px;
+  background: #1f4d77;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+.input_rename {
+  border: none;
+  outline: none;
+  padding: 5px 0px;
+  font-size: 25px;
+  color: #787878;
+  font-weight: 600;
+  width: 100%;
+  background-color: #ffffff1a;
+  font-family: "Inter";
+}
+.delete_project_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 1rem;
+}
+.modale_desc {
+  text-align: center;
+  padding: 1rem;
+}
+.modal_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  color: #161722;
+  font-weight: 700;
+  font-size: 18px;
+}
+.bntcan {
+  text-transform: capitalize !important;
+  color: #1f4d77;
+  border-color: #1f4d77 !important;
+}
+.bntdel {
+  background: #1f4d77 !important;
+  text-transform: capitalize !important;
+}
+.leftsmal {
+  padding-left: 1rem;
+}
+.register_main_div {
+  background-color: #1f4d77;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  color: #1f4d77;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem auto;
+}
+.logoregi_div {
+  display: flex;
+  justify-content: flex-end;
+}
+label {
+  text-transform: capitalize;
+}
+.Links {
+  color: #1f4d77;
+  font: 15px;
+}
+.text_reg {
+  margin: 1rem 0px;
+}
+.text_reg p {
+  margin-top: 10px;
+}
+.Input_div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.input_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.input_box input {
+  padding: 10px;
+  outline: none;
+  border: none;
+
+  color: #1f4d77;
+  width: 100%;
+}
+.bturegi_div {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.bturegi_div button {
+  background-color: #1f4d77 !important;
+  text-transform: capitalize !important;
+}
+.bturegi_div a {
+  width: 100%;
+}
+.input_logo_regis {
+  width: 100%;
+  display: flex;
+  border: 1.7px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 2px;
+  align-items: center;
+}
+.icon_register {
+  width: fit-content;
+  cursor: pointer;
+}
+.box_varification {
+  border: 1px solid #1f4d77;
+  width: 20px;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  color: #1f4d77;
+  font-weight: 600;
+  outline: none;
+  font-weight: 600;
+  font-size: 17px;
+}
+.Code_Box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.Link_back {
+  width: 100%;
+}
+.share_Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 4px;
+  width: 50%;
+  height: fit-content;
+  font-family: "Inter";
+}
+.header_modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b0b0b0;
+  padding: 1rem;
+}
+.share_project_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.share_project_div small {
+  color: #b0b0b0;
+  font-weight: 500;
+}
+.share_project_div h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(6, 6, 6, 0.8);
+}
+.share_search_div {
+  padding: 1rem;
+}
+.share_input {
+  width: -webkit-fill-available;
+  margin: auto;
+  outline: none;
+  border: 1px solid #e0e3e6;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fcfcfd;
+}
+.share_tabe_main_div {
+  padding: 1rem;
+}
+.share_tabs {
+  border-radius: 10px;
+  background: #e8f5fc;
+  width: fit-content;
+  padding: 5px;
+  min-height: fit-content !important;
+}
+.share_tab_tbn {
+  padding: 5px !important;
+  min-width: fit-content !important;
+  max-width: fit-content !important;
+  min-height: fit-content !important;
+  text-transform: capitalize !important;
+}
+.MuiTabs-scroller {
+  height: fit-content !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background-color: white;
+  color: black !important;
+  border-radius: 3px !important;
+  padding: 2px !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+  background-color: transparent !important;
+}
+.tabs_btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabs_btns h4 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #161722;
+}
+.share_action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.share_options {
+  border: none;
+  outline: none;
+  padding: 0rem 5px;
+}
+.share_Done {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-top: 1.5px solid #e0e3e6;
+}
+.share_Done button {
+  text-transform: capitalize !important;
+}
+.project_share {
+  background-color: #e8f5fc;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
+}
+.project_share h4 {
+  font-family: "Inter";
+}
+.btn_Copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  background: #1f4d77 !important;
+  text-transform: capitalize !important;
+}
+.btn_Copy svg {
+  font-size: 20px;
+}
+.project_share p {
+  margin-top: 10px;
+}
